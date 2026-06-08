@@ -1,0 +1,38 @@
+name: recetas_app
+
+description: App de recetas de comida
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  provider: ^6.1.5
+
+  shared_preferences: ^2.5.3
+
+  lottie: ^3.3.1
+
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/loading.json
+    - assets/animations/success.json
