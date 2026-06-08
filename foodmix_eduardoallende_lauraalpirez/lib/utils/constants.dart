@@ -1,0 +1,1 @@
+const String nombreApp = 'Cafetería CETis 131';
